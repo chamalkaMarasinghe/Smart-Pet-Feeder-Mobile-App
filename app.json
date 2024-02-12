@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Smart Pet Feeder",
+    "description": "Smart Pet Feeder is a product that helps you to take care of your pets.",
+    "slug": "smart-pet-feeder",
+    "privacy": "public",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "userInterfaceStyle": "light",
+
+    "ios": {
+      "bundleIdentifier": "com.smart-pet-feeder.uop",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "userInterfaceStyle": "light"
+    },
+    "android": {
+      "package": "com.smart_pet_feeder.uop",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "userInterfaceStyle": "light"
+    }
+  }
+}
